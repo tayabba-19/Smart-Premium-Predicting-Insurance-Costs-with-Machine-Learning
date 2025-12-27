@@ -17,10 +17,9 @@ st.write("Predict insurance premium using Machine Learning")
 # -------------------------------
 @st.cache_data
 def load_data():
-    url = 
-"https://drive.google.com/uc?id=1KItP_B3j98cEek8ydhRQkiaqzdOA_qo4"
+    url = "https://drive.google.com/uc?id=1KITP_B3j98cEk8y0dR0K1azc0A_oq4"
     df = pd.read_csv(url)
-    return df  
+    return df
 
 
 df = load_data()
