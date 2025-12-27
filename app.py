@@ -79,8 +79,9 @@ dependents
 # Prediction
 # -------------------------------
 if st.button("🔮 Predict Premium"):
-prediction = model.predict(input_data)
-st.success(f"💸 Predicted Insurance Premium: ₹ {prediction[0]:,.2f}")
+    prediction = model.predict(input_data)
+    st.success(f"💸 Predicted Insurance Premium: ₹ {prediction[0]:,.2f}")
+
 
 # -------------------------------
 # Footer
